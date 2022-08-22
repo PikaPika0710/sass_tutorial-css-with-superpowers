@@ -35,5 +35,8 @@ Sass Tutorial for Beginners - CSS With Superpowers
 12. Mixin Example 2
 13. Mixin Example 3
 14. Extend
+    <ul>
+        <li>Inherits properties from another tag when we dont want to type repeatedly, if we want to change value of some property just override it.</li>
+    </ul>
 15. Math Operations
 16. How to Learn More (Documentation)
