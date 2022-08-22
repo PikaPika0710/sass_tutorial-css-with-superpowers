@@ -5,7 +5,25 @@
 @function weight($weight-name){
     @return map-get($font-weights, $weight-name);
 }    
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
 
+@mixin theme($light-theme: true){
+    @if $light-theme{
+        background: lighten($primary-color, 100%);
+        color: darken($text-color, 100%);
+    }
+}
+
+@mixin row-or-column{
+    @media (max-width: $mobile){
+        @content;
+    }
+}
 body{
     // background: var(--primary-color);
     background: $primary-color;
@@ -14,6 +32,7 @@ body{
 }
 
 .main{
+    @include flexCenter(row);
     width: 80%;
     margin: 0 auto;
 
@@ -29,4 +48,12 @@ body{
             color: pink;
         }    
     }
+
+    // When the media page is below $mobile pixels, it will change the flex direction
+    @include row-or-column{
+        flex-direction: column;
+    }
+}
+.light-or-dark{
+    @include theme(true);
 }
