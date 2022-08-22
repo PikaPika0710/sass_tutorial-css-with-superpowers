@@ -1,22 +1,8 @@
-// NORMAL VARIABLES CSS
-:root{
-    --primary-color: #731515;
-    --accent-color: #ff652f;
-    --text-color: #fff;
-}
+// INCLUDE PARTIAL FILES
+@import './reset';
+@import './variables';
 
-// SCSS VARIABLES
-$primary-color: #272727;
-$accent-color: #ff652f;
-$text-color: #fff;
-
-// SCSS MAPS
-$font-weights: (
-    "normal": 400,
-    "medium":500,
-    "bold": 700
-);
-
+    
 body{
     // background: var(--primary-color);
     background: $primary-color;

@@ -4,3 +4,28 @@ Sass Tutorial for Beginners - CSS With Superpowers
 
 
 ### Install Live Sass Compiler 
+
+### Contents
+1. Intro
+    
+2. What Is Sass/Scss? 
+    
+3. Requirements
+4. Install/Setup Live Sass Compiler VS Code Extension
+5. Folder Structure / Sass Syntax
+6. Variables
+7. Maps
+8. Nesting
+9. Partials
+    <ul>
+        <li>Using Partial files, we could separate components into partials, this is really helpful in large projects.</li>
+        <li>Easily working individually, managing and maintaining. </li>
+    </ul>
+
+10. Functions
+11. Mixin Example 1
+12. Mixin Example 2
+13. Mixin Example 3
+14. Extend
+15. Math Operations
+16. How to Learn More (Documentation)

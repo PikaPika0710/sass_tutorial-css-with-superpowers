@@ -1,0 +1,21 @@
+
+// NORMAL VARIABLES CSS
+:root{
+    --primary-color: #731515;
+    --accent-color: #ff652f;
+    --text-color: #fff;
+}
+
+
+
+// SCSS VARIABLES
+$primary-color: #272727;
+$text-color: #fff;
+$accent-color: #ff652f;
+
+// SCSS MAPS
+$font-weights: (
+    "normal": 400,
+    "medium":500,
+    "bold": 700
+);
