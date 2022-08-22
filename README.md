@@ -19,7 +19,7 @@ Sass Tutorial for Beginners - CSS With Superpowers
 9. Partials
     <ul>
         <li>Using Partial files, we could separate components into partials, this is really helpful in large projects.</li>
-        <li>Easily working individually, managing and maintaining. </li>
+        <li>Easily working individually, managing and maintaining.</li>
     </ul>
 10. Functions
     <ul>
@@ -30,7 +30,7 @@ Sass Tutorial for Beginners - CSS With Superpowers
     <ul>
         <li>Used to define style</li>
         <li>We use mixing to containing properties that we don't want to type repeatedly</li>
-        <li>We also can pass parameters like functions</li>
+        <li>We also can pass parameters like functions.</li>
     </ul>
 12. Mixin Example 2
 13. Mixin Example 3
@@ -39,4 +39,8 @@ Sass Tutorial for Beginners - CSS With Superpowers
         <li>Inherits properties from another tag when we dont want to type repeatedly, if we want to change value of some property just override it.</li>
     </ul>
 15. Math Operations
+    <ul>
+        <li>In CSS we use calc() function the calculate the value for property, operands can have different type.</li>
+        <li>In SCSS we dont need to use function just directly type the operation but operands must be the same type.</li>
+    </ul>
 16. How to Learn More (Documentation)
