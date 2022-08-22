@@ -1,3 +1,43 @@
+// NORMAL VARIABLES CSS
+:root{
+    --primary-color: #731515;
+    --accent-color: #ff652f;
+    --text-color: #fff;
+}
+
+// SCSS VARIABLES
+$primary-color: #272727;
+$accent-color: #ff652f;
+$text-color: #fff;
+
+// SCSS MAPS
+$font-weights: (
+    "normal": 400,
+    "medium":500,
+    "bold": 700
+);
+
 body{
-    background: yellow;
+    // background: var(--primary-color);
+    background: $primary-color;
+    color: $text-color;
+    
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+
+    // &_paragraph{
+    //     font-weight: map-get($font-weights, bold);
+    // }
+
+    // We want only the paragraph with class named 'main_paragraph'in main, we need:
+    #{&}_paragraph{
+        font-weight: map-get($font-weights, bold);
+
+        &:hover{
+            color: pink;
+        }    
+    }
 }
