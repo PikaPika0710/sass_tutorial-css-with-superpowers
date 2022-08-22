@@ -2,7 +2,10 @@
 @import './reset';
 @import './variables';
 
-    
+@function weight($weight-name){
+    @return map-get($font-weights, $weight-name);
+}    
+
 body{
     // background: var(--primary-color);
     background: $primary-color;
@@ -20,7 +23,7 @@ body{
 
     // We want only the paragraph with class named 'main_paragraph'in main, we need:
     #{&}_paragraph{
-        font-weight: map-get($font-weights, bold);
+        font-weight: weight(bold);
 
         &:hover{
             color: pink;
